@@ -48,6 +48,7 @@ header {
   padding: 3rem 7rem;
   background-color: var(--dark-blue);
   color: var(--white);
+  border-radius: 0% 0% 150% 150%/0% 0% 40% 40%;
 }
 
 header > nav {
