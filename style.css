@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Manrope&display=swap');
+
+:root {
+  --dark-blue: #24053e;
+  --light-green: #44ffa1;
+  --light-purple: #584d62;
+  --light-pink: #fcf8ff;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+}
+
+h1 {
+  line-height: 80px;
+  font-size: 80px;
+}
+
+h2 {
+  line-height: 64px;
+  font-size: 56px;
+}
+
+h3 {
+  line-height: 40px;
+  font-size: 32px;
+}
+
+p {
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+header {
+  position: relative;
+  border: 1px solid;
+  padding: 3rem 7rem;
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-content {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  top: 6rem;
+}
+
+.content > h1 > span {
+  text-decoration: underline var(--light-green);
+}
+
+.header-content > .content > button {
+  margin-top: 1rem;
+  padding: 15px 25px;
+  background-color: var(--light-green);
+  border: none;
+}
+
+.pattern-1 {
+  position: relative;
+  top: -12rem;
+  left: -16rem;
+}
+
+.pattern-2 {
+  position: relative;
+  top: -8rem;
+  right: -53rem;
+}
