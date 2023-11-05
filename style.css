@@ -43,7 +43,7 @@ p {
 }
 
 header {
-  position: absolute;
+  position: relative;
   width: 100%;
   border: 1px solid;
   padding: 3rem 7rem;
@@ -91,9 +91,8 @@ header > nav {
 }
 
 #features-section {
-  position: absolute;
   width: 100%;
   top: 80%;
-  background-color: blue;
+  background-color: var(--light-pink);
   padding: 2rem;;
 }
