@@ -43,12 +43,15 @@ p {
 }
 
 header {
-  position: relative;
+  position: absolute;
+  width: 100%;
   border: 1px solid;
   padding: 3rem 7rem;
   background-color: var(--dark-blue);
   color: var(--white);
-  border-radius: 0% 0% 150% 150%/0% 0% 40% 40%;
+  /* border-radius: 0% 0% 150% 150%/0% 0% 40% 40%; */
+  -webkit-mask: radial-gradient(100% 100% at top, #fff 100%, #0000 100%);
+  overflow: hidden;
 }
 
 header > nav {
@@ -85,4 +88,12 @@ header > nav {
   position: relative;
   top: -8rem;
   right: -53rem;
+}
+
+#features-section {
+  position: absolute;
+  width: 100%;
+  top: 80%;
+  background-color: blue;
+  padding: 2rem;;
 }
