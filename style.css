@@ -69,6 +69,8 @@ header {
   color: var(--white);
   overflow: hidden;
   z-index: 2;
+  clip-path: ellipse(100% 100% at top);
+  margin-bottom: -5rem;
 }
 
 header > nav {
@@ -111,6 +113,7 @@ header > nav {
   background-color: var(--light-pink);
   padding: 5rem 10rem;
   min-height: 500px;
+  clip-path: ellipse(100% 100% at top);
 }
 
 .features-card {
@@ -124,7 +127,7 @@ header > nav {
   color: var(--light-purple);
   width: 100%;
   padding: 2rem 0;
-  margin: 5rem 0.5rem;
+  margin: 10rem 0.5rem;
 }
 
 .feature > div {
@@ -146,7 +149,7 @@ header > nav {
 #hero-container {
   width: 40%;
   position: absolute;
-  top: 30%;
+  top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3;
