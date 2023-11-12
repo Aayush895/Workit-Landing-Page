@@ -6,7 +6,6 @@ This is a solution to the [Workit landing page challenge on Frontend Mentor](htt
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -28,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Aayush895/Workit-Landing-Page)
-- [Live Site]()
+- [Live Site](https://aayush895.github.io/Workit-Landing-Page/)
 
 ## My process
 
@@ -42,7 +41,6 @@ Users should be able to:
 ### What I learned
 
 Learned how to create curvaceous websites using the `clip-path` property in css. 
-
 
 ### Continued development
 
